@@ -1,11 +1,13 @@
 body {
     background-color: black;
     font-size: 20px;
+    color:darkgray;
 }
 
 .one {
     text-align: center;
     font-size: 35px;
+    color:blueviolet;
 }
 .one1 {
     text-align: center;
@@ -14,5 +16,69 @@ body {
 }
 .one2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    color: burlywood;
 }
+.one3 {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+.one4 {
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+.one5 {
+    text-align: center;
+    font-size: 20px;
+    color:aqua;
+}
+
+.ogl {
+    text-decoration: none;
+    display: block;
+    color: darkgray;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+
+}
+
+a.ogl:link
+{
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+   color: darkgray;
+   text-decoration: none;
+}
+a.ogl:visited
+{
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+   color: darkgray;
+   text-decoration: none;
+}
+a.ogl:hover
+{
+   color: darkgray;
+   text-decoration: none;
+   -webkit-tap-highlight-color: transparent;
+   outline: none;
+}
+a.ogl:active
+{
+   color: darkgray;
+   text-decoration: none;
+   -webkit-tap-highlight-color: transparent;
+   outline: none;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}
+
+.topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+   }
